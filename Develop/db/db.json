@@ -1,1 +1,4 @@
-[{"title":"Test Title","text":"Test text"}]
+[]
+
+// commented out to allow refactoring to sucessfully run
+// [{"title":"Test Title","text":"Test text"}]
