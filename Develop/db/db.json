@@ -1,4 +1,17 @@
-[]
-
-// commented out to allow refactoring to sucessfully run
-// [{"title":"Test Title","text":"Test text"}]
+[
+    {
+      "title": "lol",
+      "text": "lololol",
+      "id": 1
+    },
+    {
+      "title": "Working now?",
+      "text": "Plz",
+      "id": 1
+    },
+    {
+      "title": "Hey, Hi, Hello",
+      "text": "how are ya doing\n",
+      "id": 2
+    }
+  ]
