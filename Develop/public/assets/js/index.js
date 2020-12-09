@@ -1,5 +1,5 @@
 // begin port
-const port = process.env.PORT || 4000;
+// const port = process.env.PORT || 4000;
 // begin dependencies
 const $noteTitle = $(".note-title");
 const $noteText = $(".note-textarea");
