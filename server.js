@@ -90,16 +90,16 @@ app.delete("/api/notes/:id", function (req, res) {
 
 // HTML Routes - GET
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "/Develop/public/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 app.get("/notes", function (req, res) {
-  res.sendFile(path.join(__dirname, "Develop/public/notes.html"));
+  res.sendFile(path.join(__dirname, "public/notes.html"));
 });
 
 app.get("*", function (req, res) {
   // If no matching route is found default to home
-  res.sendFile(path.join(__dirname, "/Develop/public/index.html"));
+  res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
 // Listener function to PORT
