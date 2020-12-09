@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 9000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // connect style and script sheets that reside in the public folder.
-app.use(express.static(path.join(__dirname, "/Develop/public")));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // API Routes - GET
 app.get("/api/notes", function (req, res) {
